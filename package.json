@@ -1,0 +1,26 @@
+{
+	"name": "social_fs_firebase",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KuzscoTech/Social_FS_FireBase.git"
+	},
+	"author": "Kushal Bhandari",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/KuzscoTech/Social_FS_FireBase/issues"
+	},
+	"homepage": "https://github.com/KuzscoTech/Social_FS_FireBase#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	}
+}
